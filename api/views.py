@@ -8,7 +8,7 @@ from .serializers import EmailSerializer
 @api_view(['GET'])
 def get_info(request):
     data = {
-        'email': 'godpraiseokechukwu07@gmail.com',
+        'email': 'godspraiseokechukwu07@gmail.com',
         'current_datetime': timezone.now().isoformat(),
         'github_url': 'https://github.com/Praze-hub/task-1',
     }
